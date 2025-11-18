@@ -189,12 +189,8 @@ npm start
 
 ## License
 
-This project is a work-in-progress — add your preferred license when ready.
+This project is a work-in-progress — add my preferred license when ready.
 
 ---
 
-If you'd like, I can also generate:
 
-* Postman / OpenAPI (Swagger) specification for the REST endpoints.
-* Example request/response payloads for each endpoint.
-* A basic repository file structure to get started (folders for `frontend`, `backend`, `docs`).
