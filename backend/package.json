@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend file of DevTinder",
+  "homepage": "https://github.com/ghanshyam-du/DevTinder#readme",
+  "bugs": {
+    "url": "https://github.com/ghanshyam-du/DevTinder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghanshyam-du/DevTinder.git"
+  },
+  "license": "ISC",
+  "author": "Dubey Ghanshyam",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.0",
+    "mongoose": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

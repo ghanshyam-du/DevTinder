@@ -193,8 +193,5 @@ This project is a work-in-progress — add my preferred license when ready.
 
 ---
 
-<<<<<<< HEAD
 If you'd like, I can also generate:-
-=======
->>>>>>> e16445d8069744008b33ef41b80509f65b528ba3
 
