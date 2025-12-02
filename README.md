@@ -193,5 +193,5 @@ This project is a work-in-progress — add my preferred license when ready.
 
 ---
 
-If you'd like, I can also give the star ;)!
+If you'd like, I can also give star ;)!
 
