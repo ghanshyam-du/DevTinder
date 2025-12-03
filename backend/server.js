@@ -24,6 +24,23 @@ app.post("/signup",async (req, res)=>{
     }
 
 })
+
+app.delete("/user", async (req, res)=>{
+
+    const userId = req.body.userId;
+
+    try {
+        const user = await User.findByIdAndDelete(userId);
+       
+        res.send("User deleted successfully!");
+        
+    } catch (err) {
+        res.status(400).send("Error while deleting the user!"+ err.message);
+        
+    }
+
+})
+
 // This api will send you all the data from the databases
 app.get("/feed", async (req, res) => {
     try {
