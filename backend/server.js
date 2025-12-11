@@ -74,7 +74,7 @@ app.get("/feed", async (req, res) => {
 
 
 connectDB().then(() => {
-    console.log("Database is connected Successflly!!");
+    console.log("Database is connected Successflly!");
 
     app.listen(Port, () => {
         console.log(`Server is successfully running on the port no ${Port}`);
